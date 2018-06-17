@@ -1,0 +1,14 @@
+---
+title: Kaggle Submission Post
+author: ~
+date: '2018-06-17'
+slug: kaggletalk-post
+categories: []
+tags: []
+---
+
+mkdir themes
+cd themes
+git clone https://github.com/huyb1991/hugo-lamp
+rm -rf hugo-lamp/.git
+

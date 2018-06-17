@@ -1,6 +1,9 @@
 ---
-title: "Lorem Ipsum"
-date: 2015-01-01T13:09:13-06:00
+title: "About Me"
+date: 2018-06-17
 ---
 
-**Lorem ipsum** dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore _magna aliqua_. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  My name is **Cal Reynolds**, and I am a rising third year studying computer science at Hamilton College.  
+ At Hamilton, I am a captain of the sailing team, participate on the varsity indoor and outdoor track and field teams, and am a member of the Campus Activities Board.
+ Currently, I am in Cape Town, South Africa for the summer with iXperience studying data science and will begin interning at DataProphet next week. 
+ This is my blog where I'll occasionally post my school and independent work.

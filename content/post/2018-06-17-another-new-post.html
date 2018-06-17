@@ -1,0 +1,33 @@
+---
+title: KaggleHelper
+author: ~
+date: '2018-06-17'
+slug: another-new-post
+categories: [projects]
+tags: [data science]
+---
+
+
+
+<p>During week 2 of iX data science, Mary Lin and I created a package to aid us in making a good score in the Home Credit Default Risk Kaggle competition.</p>
+<p>We created two functions:</p>
+<p>Our first, replaceNansWithMedian takes two parameters: a dataframe, and the name of the column you’d like to modify and returns a new dataframe that has a newly median imputed colum in place of the old.</p>
+<p>Below is the code for replaceNansWithMedian.</p>
+<pre class="r"><code>library(devtools)
+library(roxygen2)
+
+replaceNansWithMedian &lt;- function(df, colName) {
+  colMedian &lt;- median(df[[colName]], na.rm=TRUE)
+  df[[colName]] &lt;- tidyr::replace_na(df[[colName]], colMedian)
+  return(df)
+}</code></pre>
+<p>Second, we created writeCSV, which takes in your test data, your predictions, and a desired .csv filename. The function simply takes in these parameters, converts data into a dataframe, and writes that dataframe to a new .csv vbased on your inputted filename.</p>
+<p>Here’s the code for writeCSV.</p>
+<pre class="r"><code>library(devtools)
+library(roxygen2)
+
+writeCSV &lt;- function(testdata, predictstatement, filename=&quot;yourAnswer&quot;) {
+  fit2 &lt;- data.frame(SK_ID_CURR = testdata$SK_ID_CURR, TARGET = predictstatement)
+  write.csv(fit2, filename, row.names = FALSE, col.names = FALSE)
+}</code></pre>
+<p>Overall, replaceNansWithMedian was inifinitely more useful than writeCSV. Using an easy for loop, imputing median values into our data was made easy by KaggleHelper</p>
