@@ -1,5 +1,5 @@
 ---
-title: Kaggle Submission Post
+title: Kaggle Submission Reflection
 author: ~
 date: '2018-06-17'
 slug: kaggletalk-post
@@ -12,4 +12,6 @@ Here will be a reflection of what's happened so far on my submitting to the kagg
 I've learned that often, the most robust model is not necessarily the greatest. Entering iX and not having a substantial background in data science, as we learned newer models like bootstrapping and neural nets, I found myself always trying to implement that new algorithm.  What I'm realizing now however is that before getting preoccupied with the model type and all of the small things, one should focus on the significance of each piece of data on a grander scale into what we're trying to prove.  Further, I now think it's better to start with a simple model to ensure the procedure works correctly, as neural nets for instance take years to train for instance.  
 
 Such will be the work I'll be doing in the next few days in refining my kaggle. 
+
+I'll be creating a blog post to outline my best kaggle submission when I'm proud of one.
 
